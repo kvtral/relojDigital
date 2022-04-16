@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Roboto:wght@100;300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./Assets/css/estilo.css">
+    <title>Reloj Digital</title>
+</head>
+
+<body>
+    <div id="time">
+        <div class="circle" style="--clr: #b91eae;">
+            <div class="dots hr_dot"></div>
+            <svg>
+                <circle cx="70" 
+                        cy="70" r="70" />
+                <circle cx="70" 
+                        cy="70" r="70" id="hh"/>                         
+            </svg>
+            
+            <div id="hours">00</div>
+        </div>
+        <div class="circle" style="--clr: #2563bb;">
+            <div class="dots min_dot"></div>
+            <svg>
+                <circle cx="70" 
+                        cy="70" r="70" />
+                <circle cx="70" 
+                        cy="70" r="70" id="mm" />                            
+            </svg>
+            <div id="minutes">00</div>
+        </div>
+        <div class="circle" style="--clr: #20ab37;">
+            <div class="dots sec_dot"></div>
+            <svg>
+                <circle cx="70" 
+                        cy="70" r="70" />
+                <circle cx="70" 
+                        cy="70" r="70" id="ss" />                        
+            </svg>
+            <div id="seconds">00</div>
+        </div>
+        <div class="ap">
+            <div id="ampm"> AM </div>
+        </div>
+    </div>
+    <script src="./Assets/js/script.js"></script>
+    
+</body>
+</html>
